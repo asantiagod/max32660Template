@@ -1,0 +1,14 @@
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/spimss.h:58: warning: Refusing to add group spimss to itself
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/gpio.h:277: warning: explicit link request to 'callback_fn' could not be resolved
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/gpio.h:278: warning: explicit link request to 'callback_fn' could not be resolved
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/lp.h:215: warning: argument 'system' of command @param is not found in the argument list of MXC_LP_SetOperatingVoltage(mxc_lp_ovr_t ovr)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/lp.h:218: warning: The following parameters of MXC_LP_SetOperatingVoltage(mxc_lp_ovr_t ovr) are not documented:
+  parameter 'ovr'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/spimss.h:88: warning: explicit link request to 'spi_req' could not be resolved
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/uart.h:691: warning: argument 'uart' of command @param is not found in the argument list of MXC_UART_GetAsyncRXCount(mxc_uart_req_t *req)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/uart.h:697: warning: The following parameters of MXC_UART_GetAsyncRXCount(mxc_uart_req_t *req) are not documented:
+  parameter 'req'
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/uart.h:682: warning: argument 'uart' of command @param is not found in the argument list of MXC_UART_GetAsyncTXCount(mxc_uart_req_t *req)
+/home/lparm/JenkinsTest/workspace/MnS/MSDK/Devices/ME11/MAX32660/Libraries/PeriphDrivers/Include/MAX32660/uart.h:688: warning: The following parameters of MXC_UART_GetAsyncTXCount(mxc_uart_req_t *req) are not documented:
+  parameter 'req'
+error: Project logo './MI_Logo_Small_Pos_RGB_150dpi.png' specified by PROJECT_LOGO does not exist!
