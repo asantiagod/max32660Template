@@ -117,7 +117,7 @@ BOARD_DIR=$(LIBS_DIR)/Boards/$(TARGET_UC)/$(BOARD)
 include $(BOARD_DIR)/board.mk
 
 # Include the peripheral driver
-PERIPH_DRIVER_DIR=$(PWD)/Libraries/PeriphDrivers
+PERIPH_DRIVER_DIR=$(LIBS_DIR)/PeriphDrivers
 include $(PERIPH_DRIVER_DIR)/periphdriver.mk
 export PERIPH_DRIVER_DIR
 
@@ -126,7 +126,6 @@ export PERIPH_DRIVER_DIR
 # included before this one.
 include $(CMSIS_ROOT)/Device/Maxim/$(TARGET_UC)/Source/$(COMPILER)/$(TARGET_LC).mk
 
-#jc 20181216: also enable debug info for C++
 # Exclude debug for 'release' builds
 ifneq (${MAKECMDGOALS},release)
 ifneq (${DEBUG},0)

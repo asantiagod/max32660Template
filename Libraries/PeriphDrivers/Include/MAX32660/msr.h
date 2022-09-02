@@ -45,6 +45,12 @@
 #ifndef _MSR_H_
 #define _MSR_H_
 
+#include <stdint.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /***** Definitions *****/
 
 /// Number of tracks on a card
@@ -168,5 +174,9 @@ void msr_set_complete_callback(void (*func)(void));
 *   \returns  number of samples retrieved
 */
 unsigned int mcr_get_track_samples(unsigned int track, msr_samples_t* samples);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* _MSR_H_ */
