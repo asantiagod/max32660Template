@@ -36,17 +36,6 @@ public:
 int main(void)
 {
 	Module::setup();
-	for(;;)
+	for (;;)
 		Module::loop();
-//	 int count = 0;
-//
-//	    printf("Hello World!\n");
-//
-//	    while (1) {
-//	        LED_On(0);
-//	        MXC_Delay(500000);
-//	        LED_Off(0);
-//	        MXC_Delay(500000);
-//	        printf("count = %d\n", count++);
-//	    }
 }

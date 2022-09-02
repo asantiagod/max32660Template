@@ -126,7 +126,6 @@ export PERIPH_DRIVER_DIR
 # included before this one.
 include $(CMSIS_ROOT)/Device/Maxim/$(TARGET_UC)/Source/$(COMPILER)/$(TARGET_LC).mk
 
-#jc 20181216: also enable debug info for C++
 # Exclude debug for 'release' builds
 ifneq (${MAKECMDGOALS},release)
 ifneq (${DEBUG},0)
