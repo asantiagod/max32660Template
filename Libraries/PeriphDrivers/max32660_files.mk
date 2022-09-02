@@ -51,14 +51,14 @@ endif
 
 # This is the path to the CMSIS root directory
 ifeq "$(CMSIS_ROOT)" ""
-CMSIS_ROOT=../CMSIS
+CMSIS_ROOT=$(MAXIM_PATH)/Libraries/CMSIS
 endif
 ifeq "$(LIBS_DIR)" ""
 LIBS_DIR = $(CMSIS_ROOT)/..
 endif
 
 
-PERIPH_DIR := $(LIBS_DIR)/PeriphDrivers
+PERIPH_DIR := $(PWD)/Libraries/PeriphDrivers
 SOURCE_DIR := $(PERIPH_DIR)/Source
 INCLUDE_DIR := $(PERIPH_DIR)/Include
 
