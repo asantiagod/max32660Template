@@ -40,10 +40,6 @@
 #ifndef _DELAY_H_
 #define _DELAY_H_
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
  * @ingroup devicelibs
  * @defgroup    MXC_delay Delay Utility Functions
@@ -128,10 +124,6 @@ void MXC_DelayAbort(void);
  *             rate greater than the SysTick overflow rate.
  */
 void MXC_DelayHandler(void);
-
-#ifdef __cplusplus
-}
-#endif
 
 /**@} end of group MXC_delay */
 

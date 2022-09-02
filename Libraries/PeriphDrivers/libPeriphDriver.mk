@@ -72,10 +72,10 @@ endif
 
 # This is the path to the CMSIS root directory
 ifeq "$(CMSIS_ROOT)" ""
-CMSIS_ROOT=$(MAXIM_PATH)/Libraries/CMSIS
+CMSIS_ROOT=../CMSIS
 endif
 
-include ${PWD}/Libraries/PeriphDrivers/$(TARGET_LC)_files.mk
+include ${CMSIS_ROOT}/../PeriphDrivers/$(TARGET_LC)_files.mk
 
 # # Where to find header files for this project
 IPATH += $(PERIPH_DRIVER_INCLUDE_DIR)
